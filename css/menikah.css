@@ -615,4 +615,15 @@ body.preloader-site {
   left: 30px;
   display: inline-block;
   width: 80px;
+  z-index: 1000;
+}
+
+.navbar-burger{
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .lang{
+    width: 50px;
+  }
 }
