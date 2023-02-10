@@ -609,13 +609,10 @@ body.preloader-site {
   background-size: initial;
 }
 
-.instagram {
-  color: #996E6D;
-  font-size: 1.25rem;
-  font-weight: 900;
-  margin-top: 0.5rem;
+.lang {
+  position: fixed;
+  top: 30px;
+  left: 30px;
   display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  padding: 10px;
+  width: 80px;
 }

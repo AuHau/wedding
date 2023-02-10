@@ -34,7 +34,7 @@
 
 <body>
 
-<a href="index-en.html" class="lang"><img src="image/english-flag.png" alt="English"></a>
+<a href="index.html" class="lang"><img src="image/cz-flag.png" alt="Czech"></a>
 
 <!-- Begin Preloader -->
 <div class="preloader-wrapper">
@@ -88,13 +88,12 @@
         <!-- Begin Hero Content-->
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="subtitle">Je to tady!</h1>
-                <h2 class="title">Adam a Terka</h2>
+                <h1 class="subtitle">It is here!</h1>
+                <h2 class="title">Adam and Terka</h2>
                 <h4 class="subtitle tempatwaktu">
-
-                    Sobota, 2. září 2023
+                    Saturday, 2nd of September 2023
                     </br>
-                    Hančova bouda, Benecko, Krkonoše
+                    Hančova bouda, Benecko, Krkonoše, Czech Republic
                     </br>
 
                 </h4>
@@ -103,16 +102,16 @@
             <div>
                 <ul id="hitungmundur">
                     <li><span class="days">00</span>
-                        <p class="days_text">Dní</p></li>
+                        <p class="days_text">Days</p></li>
                     <li class="separator">:</li>
                     <li><span class="hours">00</span>
-                        <p class="hours_text">Hodin</p></li>
+                        <p class="hours_text">Hours</p></li>
                     <li class="separator">:</li>
                     <li><span class="minutes">00</span>
-                        <p class="minutes_text">Minut</p></li>
+                        <p class="minutes_text">Minutes</p></li>
                     <li class="separator">:</li>
                     <li><span class="seconds">00</span>
-                        <p class="seconds_text">Sekund</p></li>
+                        <p class="seconds_text">Seconds</p></li>
                 </ul>
                 <div class="spasi">
                 </div>
@@ -122,8 +121,16 @@
                   $('#hitungmundur').countdown({
                     date: weddingDate, // TODO Date format: 07/27/2017 17:00:00
                     offset: +1, // TODO Your Timezone Offset
+                    day: 'Day',
+                    days: 'Days',
+                    hour: 'Hour',
+                    hours: 'Hours',
+                    minute: 'Minute',
+                    minutes: 'Minutes',
+                    second: 'Second',
+                    seconds: 'Seconds'
                   }, function () {
-                    alert('Už je pozdě!')
+                    alert('It is gone!')
                   })
                 </script>
             </div>
@@ -140,17 +147,17 @@
                                 <a href="#home">Home</a>
                             </li>
                             <li>
-                                <a href="#when">Kdy</a>
+                                <a href="#when">When</a>
                             </li>
                             <li>
-                                <a href="#where">Kde</a>
+                                <a href="#where">Where</a>
                             </li>
                             <li>
-                                <a href="#accomodation">Ubytování</a>
+                                <a href="#accomodation">Accommodation</a>
                             </li>
 
                             <li>
-                                <a href="#life">Jak nám šel čas</a>
+                                <a href="#life">How the time went for us</a>
                             </li>
                         </ul>
                     </div>
@@ -171,23 +178,23 @@
         <div class="container">
 
             <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-                <h1 class="title has-text-centered section-title">Kdy</h1>
+                <h1 class="title has-text-centered section-title">When</h1>
             </div>
             <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
                 <div
                         class="column is-4 has-vertically-aligned-content">
 
                     <p class="is-larger has-text-centered">
-                    <div class="waktu tanggal-hari has-text-centered">Sobota</div>
-                    <div class="waktu tanggal-angka has-text-centered">2</div>
-                    <div class="waktu tanggal-bulan has-text-centered">září 2023</div>
+                    <div class="waktu tanggal-hari has-text-centered">Saturday</div>
+                    <div class="waktu tanggal-angka has-text-centered">2nd</div>
+                    <div class="waktu tanggal-bulan has-text-centered">September 2023</div>
                     </p>
 
                 </div>
                 <div class="column is-4 has-vertically-aligned-content">
 
                     <p class="waktu is-larger has-text-centered">
-                        Obřad:
+                        Ceremony:
                         <br>
                         <strong>13:00</strong>
                     </p>
@@ -197,9 +204,9 @@
                 <div class="column is-4 has-vertically-aligned-content">
 
                     <h1 class="waktu is-larger has-text-centered">
-                        Párty:
+                        Party:
                         <br>
-                        <strong>nějak potom</strong>
+                        <strong>some point afterwards</strong>
                     </h1>
 
 
@@ -223,7 +230,7 @@
     <section class="section-darker" id="where">
         <div class="container">
             <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-                <h1 class="title has-text-centered section-title">Kde</h1>
+                <h1 class="title has-text-centered section-title">Where</h1>
                 <p class="tempat is-larger has-text-centered">
                     <strong>Hančova Bouda </strong>
                     <br>
@@ -253,14 +260,14 @@
             <div class="columns is-multiline">
                 <div class="column is-12 prolog">
                     <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">
-                        Ubytování</h1>
+                        Accommodation</h1>
                 </div>
                 <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
                     <p class="h2 subtitle">
-                        Přímo v boudě máme zamluvené i ubytovací kapacity pro větší část hostů. Noc vč. snídaně vychází
-                        na 800 Kč/os.<br> Pokud máte zájem o toto ubytování, dejte nám vědět skrze RSVP formulář, o
-                        rezervaci se rádi postaráme. <br>Kdyby na vás místo nezbylo, tak vám dáme tipy na ubytování v
-                        okolí. <br>V takovém případě neotálejte s rezervací, protože se jedná o poslední den prázdnin.
+                        We have reserved some accommodation directly in the guest house where the whole wedding day will be organized.<br>
+                        The night (including breakfast) costs 800 Kč/person (~34€).<br>
+                        Please let us known through the RSVP form if you are interested!<br>
+                        If there would not be any space left, we can provide you with some tips for other accommodation in the area.<br>
                     </p>
 
                     <div class="space40px"></div>
@@ -281,7 +288,7 @@
             <div class="columns is-multiline">
                 <div class="column has-text-centered is-12 prolog">
                     <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">
-                        Jak nám šel čas</h1>
+                        How the time went for us</h1>
 
 
                     <!-- IMAGES -->
@@ -292,8 +299,8 @@
                                          style="background-image: url('../image/zivot/rande.jpeg')"
                                          data-aos-easing="linear">
                                     <div class="content">
-                                        <p class="title-foto">Únor 2020</p>
-                                        <p class="subtitle-foto">První rande</p>
+                                        <p class="title-foto">February 2020</p>
+                                        <p class="subtitle-foto">First date</p>
                                     </div>
                                 </article>
                             </div>
@@ -303,10 +310,10 @@
                                          data-aos-easing="linear">
                                     <div class="content">
                                         <p class="title-foto">
-                                            Únor 2020
+                                            February 2020
                                         </p>
                                         <p class="subtitle-foto">
-                                            První selfie
+                                            First selfie
                                         </p>
                                     </div>
                                 </article>
@@ -317,10 +324,10 @@
                                          data-aos-easing="linear">
                                     <div class="content">
                                         <p class="title-foto">
-                                            Duben 2020
+                                            April 2020
                                         </p>
                                         <p class="subtitle-foto">
-                                            První společný pochod Jičín - Krkonoše
+                                            First overnight hike Jičín - Krkonoše
                                         </p>
                                     </div>
                                 </article>
@@ -334,8 +341,8 @@
                                      data-aos-easing="linear"
                                      style="background-image: url('../image/zivot/svatba.jpg')">
                                 <div class="content">
-                                    <p class="title-foto">Červen 2020</p>
-                                    <p class="subtitle-foto">První svatba (né naše)</p>
+                                    <p class="title-foto">June 2020</p>
+                                    <p class="subtitle-foto">First wedding (not ours)</p>
                                 </div>
                             </article>
                         </div>
@@ -344,8 +351,8 @@
                                      style="background-image: url('../image/zivot/dovolena.jpg')"
                                      data-aos-easing="linear">
                                 <div class="content">
-                                    <p class="title-foto">Červenec 2020</p>
-                                    <p class="subtitle-foto">První dovolená</p>
+                                    <p class="title-foto">July 2020</p>
+                                    <p class="subtitle-foto">First vacation</p>
                                 </div>
                             </article>
                         </div>
@@ -354,8 +361,8 @@
                                      style="background-image: url('../image/zivot/pes.jpg')"
                                      data-aos-easing="linear">
                                 <div class="content">
-                                    <p class="title-foto">Březen 2021</p>
-                                    <p class="subtitle-foto">První pes</p>
+                                    <p class="title-foto">March 2021</p>
+                                    <p class="subtitle-foto">First dog</p>
                                 </div>
                             </article>
                         </div>
@@ -367,8 +374,8 @@
                                      data-aos-easing="linear"
                                      style="background-image: url('../image/zivot/zasnuby.jpg')">
                                 <div class="content">
-                                    <p class="title-foto">Srpen 2021</p>
-                                    <p class="subtitle-foto">První zásnuby</p>
+                                    <p class="title-foto">August 2021</p>
+                                    <p class="subtitle-foto">First engagement</p>
                                 </div>
                             </article>
                         </div>
@@ -377,8 +384,8 @@
                                      style="background-image: url('../image/zivot/dite.jpg')"
                                      data-aos-easing="linear">
                                 <div class="content">
-                                    <p class="title-foto">Duben 2022</p>
-                                    <p class="subtitle-foto">První dítě</p>
+                                    <p class="title-foto">April 2022</p>
+                                    <p class="subtitle-foto">First baby</p>
                                 </div>
                             </article>
                         </div>
@@ -387,8 +394,8 @@
                                      style="background-image: url('../image/zivot/rodina.jpeg')"
                                      data-aos-easing="linear">
                                 <div class="content">
-                                    <p class="title-foto">Prosinec 2022</p>
-                                    <p class="subtitle-foto">První rodiná fotka</p>
+                                    <p class="title-foto">December 2022</p>
+                                    <p class="subtitle-foto">First family photo</p>
                                 </div>
                             </article>
                         </div>
@@ -413,7 +420,7 @@
 <div class="footer">
     <div class="container">
         <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align">
-            <p class="has-vertically-align">2022 Adam Uhlíř převzato od Daeng Muhammad Feisal</p>
+            <p class="has-vertically-align">2022 Adam Uhlíř took over from Daeng Muhammad Feisal</p>
         </a>
     </div>
 </div>
