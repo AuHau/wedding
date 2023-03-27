@@ -116,22 +116,22 @@
                 <div class="spasi">
                 </div>
                 <script type="text/javascript">
-                  var weddingDate = '2023-09-02T14:00:00'
+                    var weddingDate = '2023-09-02T14:00:00'
 
-                  $('#hitungmundur').countdown({
-                    date: weddingDate, // TODO Date format: 07/27/2017 17:00:00
-                    offset: +1, // TODO Your Timezone Offset
-                    day: 'Day',
-                    days: 'Days',
-                    hour: 'Hour',
-                    hours: 'Hours',
-                    minute: 'Minute',
-                    minutes: 'Minutes',
-                    second: 'Second',
-                    seconds: 'Seconds'
-                  }, function () {
-                    alert('It is gone!')
-                  })
+                    $('#hitungmundur').countdown({
+                        date: weddingDate, // TODO Date format: 07/27/2017 17:00:00
+                        offset: +1, // TODO Your Timezone Offset
+                        day: 'Day',
+                        days: 'Days',
+                        hour: 'Hour',
+                        hours: 'Hours',
+                        minute: 'Minute',
+                        minutes: 'Minutes',
+                        second: 'Second',
+                        seconds: 'Seconds'
+                    }, function () {
+                        alert('It is gone!')
+                    })
                 </script>
             </div>
             <!-- End Countdown -->
@@ -172,9 +172,33 @@
 
 <!-- Begin Main Content -->
 <div class="main-content">
+    <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
+            These folks are getting married
+        </p>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+
+        <div data-aos="fade-up" data-aos-easing="linear">
+            <div class="nama-lengkap" >
+                Adam Uhlír
+            </div>
+            <div class="ampersand">&</div>
+            <div class="nama-lengkap">
+                Tereza Bílková
+            </div>
+
+        </div>
+        <span class="space40px"></span>
+        <div data-aos="fade-up" data-aos-easing="linear">
+            <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+        </div>
+        <span class="space40px"></span>
+        <span class="space40px"></span>
+    </section>
 
     <!-- Begin Date Section -->
-    <section class="section-light" id="when">
+    <section class="section-darker" id="when">
         <div class="container">
 
             <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
@@ -227,7 +251,7 @@
     <!-- End Waktu Content -->
 
     <!-- Begin Lokasi Section -->
-    <section class="section-darker" id="where">
+    <section class="section-light" id="where">
         <div class="container">
             <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
                 <h1 class="title has-text-centered section-title">Where</h1>
@@ -255,7 +279,7 @@
     <!-- End Lokasi Content -->
 
     <!-- Begin RSVP Content -->
-    <section class="section-light contact" id="accomodation">
+    <section class="section-darker contact" id="accomodation">
         <div class="container">
             <div class="columns is-multiline">
                 <div class="column is-12 prolog">
@@ -264,10 +288,12 @@
                 </div>
                 <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
                     <p class="h2 subtitle">
-                        We have reserved some accommodation directly in the guest house where the whole wedding day will be organized.<br>
+                        We have reserved some accommodation directly in the guest house where the whole wedding day will
+                        be organized.<br>
                         The night (including breakfast) costs 800 Kč/person (~34€).<br>
                         Please let us known through the RSVP form if you are interested!<br>
-                        If there would not be any space left, we can provide you with some tips for other accommodation in the area.<br>
+                        If there would not be any space left, we can provide you with some tips for other accommodation
+                        in the area.<br>
                     </p>
 
                     <div class="space40px"></div>
@@ -283,7 +309,7 @@
     <!-- End RSVP Content -->
 
     <!-- Begin Tentang Sherly and Daeng -->
-    <section class="section-dark regular-section is-fullheight" id="life">
+    <section class="section-light regular-section is-fullheight" id="life">
         <div class="container">
             <div class="columns is-multiline">
                 <div class="column has-text-centered is-12 prolog">
@@ -432,10 +458,10 @@
 <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script>
-  AOS.init({
-    easing: 'ease-out',
-    duration: 800,
-  })
+    AOS.init({
+        easing: 'ease-out',
+        duration: 800,
+    })
 </script>
 </body>
 </html>
